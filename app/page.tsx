@@ -33,7 +33,6 @@ export default function Home() {
           <nav style={{ display: 'flex', gap: '32px' }}>
             <a href="#about" style={{ textDecoration: 'none', color: '#666666', fontWeight: '500', transition: 'color 0.3s' }}>About</a>
             <a href="#services" style={{ textDecoration: 'none', color: '#666666', fontWeight: '500', transition: 'color 0.3s' }}>Services</a>
-            <a href="#contact" style={{ textDecoration: 'none', color: '#666666', fontWeight: '500', transition: 'color 0.3s' }}>Contact</a>
           </nav>
         </div>
       </header>
@@ -95,7 +94,7 @@ export default function Home() {
               About Life Kitchen Studios
             </h2>
             <p style={{ fontSize: '1.125rem', color: '#6b7280', maxWidth: '600px', margin: '0 auto', lineHeight: '1.6' }}>
-              We're a North Carolina-based Web3 design and development studio creating purposeful, tech-forward solutions.
+              We're a Web3 design and development studio creating purposeful, tech-forward solutions.
             </p>
           </div>
 
@@ -172,53 +171,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CONTACT SECTION */}
-      <section id="contact" style={{
-        padding: '80px 24px',
-        backgroundColor: '#ffffff'
-      }}>
-        <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
-          <h2 style={{ fontSize: '2.5rem', fontWeight: '700', marginBottom: '16px', color: '#1f2937' }}>
-            Get in Touch
-          </h2>
-          <p style={{ fontSize: '1.125rem', color: '#6b7280', marginBottom: '32px' }}>
-            Ready to build the future together? Let's discuss your project.
-          </p>
-          
-          <div style={{ backgroundColor: '#f8fafc', padding: '48px', borderRadius: '12px', marginBottom: '32px' }}>
-            <div style={{ marginBottom: '24px' }}>
-              <h3 style={{ fontSize: '1.125rem', fontWeight: '600', color: '#1f2937', marginBottom: '8px' }}>Location</h3>
-              <p style={{ color: '#6b7280' }}>📍 Wilmington, North Carolina</p>
-            </div>
-            
-            <div>
-              <h3 style={{ fontSize: '1.125rem', fontWeight: '600', color: '#1f2937', marginBottom: '16px' }}>Contact</h3>
-              <button 
-                onClick={handleEmailClick}
-                style={{
-                  backgroundColor: '#2563eb',
-                  color: 'white',
-                  padding: '12px 24px',
-                  borderRadius: '8px',
-                  border: 'none',
-                  fontSize: '1rem',
-                  fontWeight: '600',
-                  cursor: 'pointer',
-                  transition: 'background-color 0.3s'
-                }}
-                onMouseOver={(e) => (e.target as HTMLButtonElement).style.backgroundColor = '#1d4ed8'}
-                onMouseOut={(e) => (e.target as HTMLButtonElement).style.backgroundColor = '#2563eb'}
-              >
-                Send Email
-              </button>
-              <p style={{ color: '#9ca3af', fontSize: '0.875rem', marginTop: '8px' }}>
-                Click to send us a message
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FOOTER */}
       <footer style={{
         backgroundColor: '#1f2937',
@@ -238,7 +190,7 @@ export default function Home() {
           
           <div style={{ borderTop: '1px solid #374151', paddingTop: '24px' }}>
             <p style={{ fontSize: '0.875rem' }}>
-              © 2025 Life Kitchen Studios, LLC. All rights reserved. Registered in the State of North Carolina.
+              © 2025 Life Kitchen Studios, LLC. All rights reserved.
             </p>
           </div>
         </div>
